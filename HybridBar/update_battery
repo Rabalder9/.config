@@ -1,0 +1,13 @@
+#!/bin/sh
+
+read -r bat_capacity1 </sys/class/power_supply/BAT0/capacity
+read -r bat_status2 </sys/class/power_supply/BAT1/status
+read -r bat_capacity2 </sys/class/power_supply/BAT1/capacity
+
+bat_capacity=$(((bat_capacity1+bat_capacity2)/2))
+
+if [ "$bat_capacity" = "20" ]; then notify-send "Lavt batteri!"
+fi
+
+bat="BAT: $bat_capacity%"
+echo $bat

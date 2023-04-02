@@ -7,7 +7,7 @@ require "user.colorscheme"
 
 -- PLUGINS
 
-require "user.autopairs"
+--require "user.autopairs"
 require "user.comment"
 require "user.impatient"
 require "user.surround"
@@ -32,7 +32,7 @@ require "user.alpha"
 require "user.illuminate"
 
 -- Autocomplete
-require "user.cmp"
+--require "user.cmp"
 
 -- LaTeX
 require "user.vimtex"

@@ -53,7 +53,6 @@ return packer.startup(function(use)
   use { "mbbill/undotree" } -- Vimscript
   -- use { "mg979/vim-visual-multi" } -- Vimscript
   use { "glacambre/firenvim" } -- Vimscript
-  use { "gbprod/yanky.nvim" }
 
 -- Mappings
 	use { "folke/which-key.nvim" }
@@ -83,35 +82,19 @@ return packer.startup(function(use)
   -- use { "EdenEast/nightfox.nvim" }
   -- use { "navarasu/onedark.nvim" }
 
--- Cmp 
-  use { "hrsh7th/nvim-cmp" }
-	use { "hrsh7th/cmp-nvim-lsp" }
-  -- buffer completions
-  use { "hrsh7th/cmp-buffer" }
-  -- path completions
-  use { "hrsh7th/cmp-path" }
-  -- snippet completions
-	use { "saadparwaiz1/cmp_luasnip" }
-  -- command completions
-  use { "hrsh7th/cmp-cmdline" }
-  -- spelling completions
-  use { "f3fora/cmp-spell" }
-  -- helps Vimtex completions
-  use { "hrsh7th/cmp-omni" }
-  -- use { "aspeddro/cmp-pandoc.nvim" }
 
 -- LSP
   -- enable LSP
-	use { "neovim/nvim-lspconfig" }
+	--use { "neovim/nvim-lspconfig" }
   -- simple to use language server installer
-  use { "williamboman/mason.nvim" }
-  use { "williamboman/mason-lspconfig.nvim" }
+  --use { "williamboman/mason.nvim" }
+  --use { "williamboman/mason-lspconfig.nvim" }
   -- for formatters and linters
-	use { "jose-elias-alvarez/null-ls.nvim" }
+	--use { "jose-elias-alvarez/null-ls.nvim" }
 
 -- LaTeX
   use { "lervag/vimtex" } -- essential for LaTeX; Vimscript
-  use { "kdheepak/cmp-latex-symbols" }
+  --use { "kdheepak/cmp-latex-symbols" }
   use { "jbyuki/nabla.nvim" } -- show symbols in editor
 
 -- Markdown

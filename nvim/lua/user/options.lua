@@ -1,6 +1,6 @@
 local options = {
-  spell = true,
-  spelllang ={'nb', 'en'},
+  spell = false,
+  spelllang ={'nb'},
   backup = false,                          -- creates a backup file
   clipboard = "unnamedplus",               -- allows neovim to access the system clipboard
   cmdheight = 2,                           -- more space in the neovim command line for displaying messages
