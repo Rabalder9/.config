@@ -133,6 +133,7 @@ keymap("v", "J", "gj", opts)
 keymap("v", "K", "gk", opts)
 
 
+
 -- Terminal --
 -- Better terminal navigation
 -- keymap("t", "<C-h>", "<C-\\><C-N><C-w>h", term_opts)
